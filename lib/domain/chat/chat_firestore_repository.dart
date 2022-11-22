@@ -8,7 +8,7 @@ final chatStreamProvider = StreamProvider.autoDispose<List<Chat>>((ref) {
   //ref.onDispose(() { });
   final db = FirebaseFirestore.instance;
   Stream<QuerySnapshot<Map<String, dynamic>>> stream = db.collection("chat").snapshots();
-  return stream.map((snapshot) => snapshot.docs.map((doc) => Chat.fromJson(doc.data())).toList());
+  return stream.map((snapshot) => snapshot.docs.map((doc) => Chat.fromJson(doc.data(), id: doc.id)).toList());
 });
 
 final chatFirestoreRepositoryProvider = Provider((ref) {

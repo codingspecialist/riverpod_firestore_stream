@@ -14,8 +14,8 @@ class Chat {
       };
 
   // map -> dart (fromJson)
-  factory Chat.fromJson(Map<String, dynamic> json) => Chat(
-        id: json["id"],
+  factory Chat.fromJson(Map<String, dynamic> json, {String? id}) => Chat(
+        id: id ?? json["id"],
         from: json["from"],
         to: json["to"],
         msg: json["msg"],
