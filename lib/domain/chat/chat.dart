@@ -1,8 +1,23 @@
 class Chat {
-  int id;
+  String id;
   String from;
   String to;
   String msg;
 
-  Chat(this.id, this.from, this.to, this.msg);
+  Chat({required this.id, required this.from, required this.to, required this.msg});
+
+  Map<String, dynamic> toJson() => {
+        "id": id,
+        "from": from,
+        "to": to,
+        "msg": msg,
+      };
+
+  // map -> dart (fromJson)
+  factory Chat.fromJson(Map<String, dynamic> json) => Chat(
+        id: json["id"],
+        from: json["from"],
+        to: json["to"],
+        msg: json["msg"],
+      );
 }
