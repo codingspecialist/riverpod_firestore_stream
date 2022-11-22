@@ -1,0 +1,3 @@
+// Provider
+
+class ChatController {}

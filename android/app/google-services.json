@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "665887784706",
+    "project_id": "fireapp-c713d",
+    "storage_bucket": "fireapp-c713d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665887784706:android:51587c6e4c43f5ae974c1b",
+        "android_client_info": {
+          "package_name": "shop.mtcoding.riverpod_firestore_stream"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665887784706-fsfgplrdmfsfg42l08p57b66n6ecth20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEBH1Q94baLJE9S4tmPUKQQT0-ypiUArQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665887784706-fsfgplrdmfsfg42l08p57b66n6ecth20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
