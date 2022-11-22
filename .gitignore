@@ -1,4 +1,6 @@
 # Miscellaneous
+#/ios/firebase_app_id_file.json
+#/android/app/google-services.json
 *.class
 *.log
 *.pyc
